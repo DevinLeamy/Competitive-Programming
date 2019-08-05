@@ -1,2 +1,2 @@
 # Online Coding
-Solutions to questions from various online competitive programming websites.
+Solutions to problems from various online competitive programming websites.
