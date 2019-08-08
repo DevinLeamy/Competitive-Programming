@@ -1,7 +1,7 @@
+// Bottom Up DP approach
+
 import java.io.*;
 import java.util.*;
-
-
 
 public class BytelandianGoldCoins {
     private static long[] checked = new long[10000000];
