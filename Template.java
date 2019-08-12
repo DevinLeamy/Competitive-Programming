@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Template {
     public static void main(String[] args) throws IOException {
-
+        //Write code here...
     }
     private static StringTokenizer line = new StringTokenizer("");
     private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
