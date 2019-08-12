@@ -25,4 +25,12 @@ public class Template {
             return line.nextToken();
         }
     }
+    private static String[] nextStringArray() throws IOException
+    {
+        return in.readLine().split(" ");
+    }
+    private static int[] nextIntArray() throws IOException
+    {
+        return Arrays.stream(nextStringArray()).mapToInt(Integer::parseInt).toArray();
+    }
 }
