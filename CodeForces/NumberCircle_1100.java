@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class NumberCircle {
+public class NumberCircle_1100 {
     private static void check(long[] array){
         for (int i = 0; i < array.length; i++){
             long current = array[i];
