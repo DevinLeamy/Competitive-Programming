@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ImportantExam {
+public class ImportantExam_900 {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer line = new StringTokenizer(in.readLine());
