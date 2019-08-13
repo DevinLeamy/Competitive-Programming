@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ArraySplitting {
+public class ArraySplitting_1400 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer NK = new StringTokenizer(in.readLine());
