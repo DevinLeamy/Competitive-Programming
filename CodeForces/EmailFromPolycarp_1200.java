@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class EmailFromPolycarp {
+public class EmailFromPolycarp_1200 {
     private static boolean canBeTyped(String goal, String got){
         String Z = String.valueOf(goal.charAt(0));
         if (got.length() < goal.length())
