@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class DIYWoodenLadder {
+public class DIYWoodenLadder_1000 {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(in.readLine());
