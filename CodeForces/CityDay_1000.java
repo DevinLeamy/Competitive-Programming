@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CityDay{
+public class CityDay_1000 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer lineOne = new StringTokenizer(in.readLine());
