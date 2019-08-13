@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class RopeWalkers{
+public class RopeWalkers_900{
     public static void main(String[] args) throws IOException {
         int[] walkers = {nextInt(), nextInt(), nextInt()};
         int D = nextInt();
