@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ZeroArray {
+public class ZeroArray_1500 {
     public static void main(String[] args) throws IOException {
         int N = nextInt();
         long largest = -1;
