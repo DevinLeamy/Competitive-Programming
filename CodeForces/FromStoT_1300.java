@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class FromStoT {
+public class FromStoT_1300 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int Q = Integer.parseInt(in.readLine());
