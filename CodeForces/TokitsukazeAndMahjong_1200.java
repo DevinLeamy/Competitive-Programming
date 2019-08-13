@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class TokitsukazeAndMahjong {
+public class TokitsukazeAndMahjong_1200 {
     private static int best = Integer.MAX_VALUE;
     private static void getBest(List<Integer> set){
         if (set.size() == 0){
