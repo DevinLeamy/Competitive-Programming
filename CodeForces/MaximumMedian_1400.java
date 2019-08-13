@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class MaximumMedian_1500 {
+public class MaximumMedian_1400 {
     private static int binarySearch(int median, int[] array, int K){
         for (int i = array.length - 1; i > array.length / 2; i--){
             int num = array[i];
