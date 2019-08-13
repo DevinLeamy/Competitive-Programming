@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class WaterLily {
+public class WaterLily_1000 {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String[] input = in.readLine().split(" ");
