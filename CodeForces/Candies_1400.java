@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Candies {
+public class Candies_1400 {
     private static int getCandies(int num){
         return num/10;
     }
