@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CircleOfStudents {
+public class CircleOfStudents_1100 {
     private static boolean canDance(int[] students, int N, int first){
         if (N == 1 || N == 2){
             return true;
