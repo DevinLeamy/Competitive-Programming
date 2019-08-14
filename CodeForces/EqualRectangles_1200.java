@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class EqualRectangles {
+public class EqualRectangles_1200 {
     private static boolean solve(int N, int[] sticks){
         int created = 0;
         int topIndex = 0;
