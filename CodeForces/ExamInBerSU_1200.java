@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ExamInBerSU {
+public class ExamInBerSU_1200 {
     private static void insert(int num, List<Integer> sortedArrayList)
     {
         int index = sortedArrayList.size() - 1;
