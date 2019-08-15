@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class TheDoctorMeetsVader {
+public class TheDoctorMeetsVader_1400 {
     public static void main(String[] args) throws IOException {
         StringBuilder output = new StringBuilder();
         int S = nextInt(); int B = nextInt();
