@@ -1,9 +1,7 @@
-//Not on git, have not written my solution
-
 import java.util.*;
 import java.io.*;
 
-public class EqualizePrices {
+public class EqualizePrices_1000 {
     private static int getMax(int S, int B, int K)
     {
         if (B - S > (2 * K))
