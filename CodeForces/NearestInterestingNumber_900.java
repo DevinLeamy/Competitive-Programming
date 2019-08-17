@@ -1,9 +1,7 @@
-//Not on git (900), have not written a solution
-
 import java.util.*;
 import java.io.*;
 
-public class NearestInterestingNumber {
+public class NearestInterestingNumber_900 {
     private static int sum(int N)
     {
         String[] values = String.valueOf(N).split("");
