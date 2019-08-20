@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CommonDivisors {
+public class CommonDivisors_1300 {
     private static long getDivisors(long num)
     {
         long top = (long) Math.sqrt(num);
