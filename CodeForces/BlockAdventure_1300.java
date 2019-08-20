@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BlockAdventure {
+public class BlockAdventure_1300 {
     public static void main(String[] args) throws IOException {
         int T = nextInt();
         for (int i = 0 ; i < T; i++)
