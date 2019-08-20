@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Boxers {
+public class Boxers_1500 {
     public static void main(String[] args) throws IOException {
         int N = nextInt();
         TreeSet<Integer> set = new TreeSet<>();
