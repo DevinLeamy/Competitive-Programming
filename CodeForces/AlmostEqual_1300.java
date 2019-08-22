@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class AlmostEqual {
+public class AlmostEqual_1300 {
     public static void main(String[] args) throws IOException {
         int N = Integer.parseInt(in.readLine());
         if (N == 1)
