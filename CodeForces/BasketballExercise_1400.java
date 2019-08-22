@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BasketballExercise {
+public class BasketballExercise_1400 {
     private static long solve(long N, long[] L1, long[] L2){
         long[] LB = {0, 0};
         for (int i = 0; i < N; i++){
