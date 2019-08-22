@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class OddSumSegments {
+public class OddSumSegments_1200 {
     public static void main(String[] args) throws IOException {
         int Q = nextInt();
         for (int i = 0; i < Q; i++)
