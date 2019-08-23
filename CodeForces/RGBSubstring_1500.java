@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class RGBSubstring {
+public class RGBSubstring_1500 {
     private static void solve(int K, String N)
     {
         String rgb = "RGB";
