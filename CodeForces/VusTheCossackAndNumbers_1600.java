@@ -1,6 +1,9 @@
 import java.util.*;
 import java.io.*;
 
+import java.util.*;
+import java.io.*;
+
 public class VusTheCossackAndNumbers_1600 {
     public static void main(String[] args) throws IOException {
         int N = nextInt();
@@ -18,23 +21,13 @@ public class VusTheCossackAndNumbers_1600 {
             {
                 System.out.println((int) value);
             } else {
-                if (TS > 0)
-                {
-                    if (value >= 0)
-                    {
-                        System.out.println((int) value);
-                    } else {
-                        System.out.println(((int) value) - 1);
-                        TS--;
-                    }
-                } else {
-                    if (value >= 0) {
-                        System.out.println(((int) value) + 1);
-                        TS++;
-                    } else {
-                        System.out.println(((int) value));
-                    }
+                if (TS > 0) {
+                    System.out.println((value >= 0) ? (int) value : ((int) value) - 1);
+                    TS += (value >= 0)? 0 : -1;
+                    continue;
                 }
+                System.out.println( (value >= 0)? ((int) value) + 1: (int) value );
+                TS += (value >= 0)? 1 : 0;
             }
         }
     }
@@ -46,10 +39,6 @@ public class VusTheCossackAndNumbers_1600 {
     {
         return Integer.parseInt(nextString());
     }
-    private static long nextLong() throws IOException
-    {
-        return Long.parseLong(nextString());
-    }
     private static String nextString() throws IOException
     {
         if (line.hasMoreTokens())
@@ -59,17 +48,5 @@ public class VusTheCossackAndNumbers_1600 {
             line = new StringTokenizer(in.readLine());
             return line.nextToken();
         }
-    }
-    private static String[] nextStringArray() throws IOException
-    {
-        return in.readLine().split(" ");
-    }
-    private static int[] nextIntArray() throws IOException
-    {
-        return Arrays.stream(nextStringArray()).mapToInt(Integer::parseInt).toArray();
-    }
-    private static void println(String value)
-    {
-        System.out.println(value);
     }
 }
