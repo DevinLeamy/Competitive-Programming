@@ -1,15 +1,7 @@
-/*
-* Use two isUp boolean variables one for the min if you traveled down and
-* One for the other
-* Secondly calculate cost of going down and going up and then add those to the respective
-* counters when need be
-* That should would when put into code
- */
-
 import java.util.*;
 import java.io.*;
 
-public class GasPipeline {
+public class GasPipeline_1500 {
     public static void main(String[] args) throws IOException {
         int Q = nextInt();
         for (int i = 0; i < Q; i++) {
