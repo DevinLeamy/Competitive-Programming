@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class VusTheCossackAndNumbers {
+public class VusTheCossackAndNumbers_1600 {
     public static void main(String[] args) throws IOException {
         int N = nextInt();
         long TS = 0;
