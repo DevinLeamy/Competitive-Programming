@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CandyBox {
+public class CandyBox_1400 {
     public static void main(String[] args) throws IOException {
         int Q = nextInt();
         for (int i = 0; i < Q; i++)
