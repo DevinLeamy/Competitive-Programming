@@ -79,16 +79,4 @@ public class GasPipeline_1500 {
             return line.nextToken();
         }
     }
-    private static String[] nextStringArray() throws IOException
-    {
-        return in.readLine().split(" ");
-    }
-    private static int[] nextIntArray() throws IOException
-    {
-        return Arrays.stream(nextStringArray()).mapToInt(Integer::parseInt).toArray();
-    }
-    private static void print(String value)
-    {
-        System.out.println(value);
-    }
 }
