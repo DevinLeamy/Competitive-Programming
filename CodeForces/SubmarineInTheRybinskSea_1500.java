@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.*;
 import java.io.*;
 
-public class SubmarineInTheRybinskSea {
+public class SubmarineInTheRybinskSea_1500 {
     public static void main(String[] args) throws IOException
     {
         int N = nextInt();
