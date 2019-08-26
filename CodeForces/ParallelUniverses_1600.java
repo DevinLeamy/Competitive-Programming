@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ParallelUniverses {
+public class ParallelUniverses_1600 {
     public static void main(String[] args) throws IOException
     {
         int n, k, m, t;
