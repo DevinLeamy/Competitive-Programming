@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class RemoveAProgression {
+public class RemoveAProgression_800 {
     public static void main(String[] args) throws IOException
     {
         int Q = nextInt();
