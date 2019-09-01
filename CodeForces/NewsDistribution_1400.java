@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 
-public class NewsDistribution
+public class NewsDistribution_1400
 {
     public static class DisjointSet
     {
