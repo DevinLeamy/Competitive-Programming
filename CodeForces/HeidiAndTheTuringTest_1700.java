@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class HeidiAndTheTuringTest {
+public class HeidiAndTheTuringTest_1700 {
     public static void main(String[] args) throws IOException
     {
        int N = nextInt();
