@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BadSequences {
+public class BadSequences_1200 {
     public static void main(String[] args) throws IOException
     {
         int N = nextInt();
