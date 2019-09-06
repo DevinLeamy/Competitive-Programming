@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ZmeiGorynich {
+public class ZmeiGorynich_1600 {
     public static void main(String[] args) throws IOException
     {
         int T = nextInt();
