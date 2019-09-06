@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Brutality {
+public class Brutality_1300 {
     public static void main(String[] args) throws IOException
     {
         int N = nextInt(); int K = nextInt();
