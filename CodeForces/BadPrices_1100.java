@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BadPrices {
+public class BadPrices_1100 {
     public static void main(String[] args) throws IOException
     {
         int T = nextInt();
