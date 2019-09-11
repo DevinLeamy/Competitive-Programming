@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class PlusFromPicture {
+public class PlusFromPicture_1300 {
     public static void main(String[] args) throws IOException
     {
         int H = nextInt();
