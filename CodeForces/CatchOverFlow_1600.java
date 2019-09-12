@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CatchOverFlow {
+public class CatchOverFlow_1600 {
     public static void main(String[] args) throws IOException
     {
         int N = nextInt();
