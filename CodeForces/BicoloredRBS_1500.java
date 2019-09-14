@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BicoloredRBS {
+public class BicoloredRBS_1500 {
     public static void main(String[] args) throws IOException
     {
         int N = nextInt();
