@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Pairs {
+public class Pairs_1500 {
     private static boolean tryValue(int num, boolean[] fit, int[][] pairs, int M)
     {
         for (int i = 0; i < M; i++)
