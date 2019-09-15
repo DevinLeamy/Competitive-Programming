@@ -5,6 +5,7 @@ public class Template {
     public static void main(String[] args) throws IOException {
         //Write code here...
     }
+    //Template
     private static StringTokenizer line = new StringTokenizer("");
     private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     private static int nextInt() throws IOException
