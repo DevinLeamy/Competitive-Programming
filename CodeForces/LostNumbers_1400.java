@@ -1,7 +1,8 @@
+//Interactive Problem
 import java.util.*;
 import java.io.*;
 
-public class LostNumbers {
+public class LostNumbers_1400 {
     public static StringBuilder output = new StringBuilder();
     private static boolean contains(int[] list, int value)
     {
