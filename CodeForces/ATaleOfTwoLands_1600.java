@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ATaleOfTwoLands {
+public class ATaleOfTwoLands_1600 {
     private static void quickSort(long[] list, long left, long right)
     {
         if (left < right)
