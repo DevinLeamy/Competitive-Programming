@@ -3,7 +3,7 @@ public class BinarySearch {
     {
         if (right >= left)
         {
-            int mid = left + (right - left) / 2;
+            int mid = (right - left) / 2;
             if (array[mid] == probe)
             {
                 while (array[mid] == probe && mid < array.length)
