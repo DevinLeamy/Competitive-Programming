@@ -10,7 +10,6 @@ int main()
    for (int i = 0; i < Q; i++)
    {
       long long N;
-      vector< vector<bool> > dp;  // dp[i][j] -> can water reach the jth pos in the ith row
       cin >> N;
       string row1, row2;
       cin >> row1 >> row2;
@@ -61,10 +60,6 @@ int main()
             cout << "NO" << endl;
          }
       }
-
-
-
-
    }
    return 0;
 }
