@@ -1,7 +1,9 @@
 # Competitive Programming
 Solutions to problems from various online competitive programming websites. <br/>
+# Problems
 https://codeforces.com <br/>
 https://www.codechef.com
+# Contests
 # CPC
 Week One: https://open.kattis.com/contests/ourwqi/standings <br/>
 Week Two: https://open.kattis.com/contests/ucgxf3/standings <br/>
