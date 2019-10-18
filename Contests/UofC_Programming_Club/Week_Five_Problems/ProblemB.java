@@ -51,6 +51,3 @@ public class ProblemB {
 
     }
 }
-//Muk next player name!
-//Can play name
-//Can't play ?
