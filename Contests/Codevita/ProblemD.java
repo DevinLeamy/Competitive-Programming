@@ -1,5 +1,3 @@
-//Works
-
 import java.io.*;
 
 public class ProblemD {
