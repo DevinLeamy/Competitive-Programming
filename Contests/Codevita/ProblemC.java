@@ -5,11 +5,10 @@ public class ProblemC {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer line = new StringTokenizer(in.readLine());
-        int N = Integer.parseInt(line.nextToken()); //#players
-        int R = Integer.parseInt(line.nextToken()); // #rooms
+        int N = Integer.parseInt(line.nextToken()); 
+        int R = Integer.parseInt(line.nextToken()); 
         int eachRoom = N/R;
-        int M = Integer.parseInt(in.readLine()); // #teams formed
-        //Trying to make sets of size R?
+        int M = Integer.parseInt(in.readLine()); 
         line = new StringTokenizer(in.readLine());
         int[] teams = new int[M];
         for (int i = 0; i < M; i++)
