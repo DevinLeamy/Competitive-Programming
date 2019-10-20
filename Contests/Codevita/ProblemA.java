@@ -1,9 +1,7 @@
-//Works
-
 import java.io.*;
 import java.util.*;
 
-public class Problem1 {
+public class ProblemA {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(in.readLine());
