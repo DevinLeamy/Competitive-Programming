@@ -1,5 +1,4 @@
 #include <iostream>
-//Put on Github
 using namespace std;
 
 int main() {
