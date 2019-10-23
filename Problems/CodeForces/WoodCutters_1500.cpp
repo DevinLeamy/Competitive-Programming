@@ -16,14 +16,6 @@ int main() {
          lastFilled = potential;
          potential = -1;
       }
-      // // int temp = count;
-      // if (potential <= lastFilled || potential >= X) {
-      //    potential = -1;
-      // }
-      // if (potential != -1 && potential < X - H) {
-      //    count++;
-      //    potential = -1;
-      // }
       if ((X - H > lastFilled && i != N-1) || (lastFilled < 0 && i != N-1)) {
          count++;
          potential = -1;
