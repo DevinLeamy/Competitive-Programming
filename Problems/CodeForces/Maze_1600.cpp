@@ -1,6 +1,5 @@
 #include <vector>
 #include <iostream>
-#include <deque>
 
 using namespace std;
 int r, c, k;
@@ -31,7 +30,6 @@ int main() {
     for (int i = 0; i < r; i++) {
         string row = "";
         for (int j = 0; j < c; j++) {
-//            cout << visited[i][j] << endl;
             if (visited[i][j] > count-k) {canTravel[i][j] = 'X';}
             row += canTravel[i][j];
         }
