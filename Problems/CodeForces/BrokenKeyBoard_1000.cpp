@@ -1,5 +1,3 @@
-//Not on github
-
 #include <iostream>
 #include <unordered_map>
 
