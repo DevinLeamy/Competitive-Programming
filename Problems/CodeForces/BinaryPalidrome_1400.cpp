@@ -1,5 +1,3 @@
-//Not on github
-
 #include <iostream>
 #include <vector>
 using namespace std;
