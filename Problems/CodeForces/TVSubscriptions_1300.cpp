@@ -8,10 +8,7 @@ int main() {
         cin >> n >> k >> d;
         int shows[n+1];
         int watching[1000001]= {0};
-//        for (int j = 0; j <= k; j++) {
-//            watching[j] = 0;
-//        }
-        
+
         for (int j = 0; j < n; j++) {
             cin >> a;
             shows[j] = a;
