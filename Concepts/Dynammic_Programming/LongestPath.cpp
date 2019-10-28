@@ -22,24 +22,15 @@ int main() {
 void dfs(int node) {
     if (adj[node].size() == 0) { dp[node] = 0; }
     else {
-        int maximum = -1;
         for (int children : adj[node]) {
             if (dp[children] == -1) {
                 dfs(children);
             }
-            maximum = max(dp[children] + 1, maximum);
+            dp[node]= max(dp[children] + 1, dp[node]);
         }
-        dp[node] = maximum;
     }
-    
 }
-
-
-// 1 2 3 4 5
-// 1 3 6 10 15 dp[i] = a[i] + dp[i-1] <- pervious state
-
 /*
     dp[i] = the longest path in the graph from the i'th node
-    dp[i] (let i == the i'th node) dp[i] = dp[i+1] (let i+1 == the next node you are going to visit) + 1
-    
+    dp[currentNode] = max(dp[currentNode], dp[nextNode] + 1)
  */
