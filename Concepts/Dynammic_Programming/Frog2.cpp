@@ -3,31 +3,25 @@
 
 using namespace std;
 
-const int INF = 1e9 + 5;
-
-int main()
-{
-    int N, K, S;
-    cin >> N >> K;
-    vector<int> H(N);
-    for (int i = 0; i < N; i++)
-    {
-        cin >> S;
-        H[i] = S;
+int INF = 10e8 + 1;
+int rocks[100001];
+int dp[100000];
+int main() {
+    int n, k, h;
+    scanf("%i%i", &n, &k);
+    for (int i = 0; i < n; i++) {
+        scanf("%i", &h);
+        rocks[i] = h;
     }
-    vector<int> dp(N, INF);
+    for (int i = 0; i <= n; i++) {
+        dp[i] = INF;
+    }
     dp[0] = 0;
-    for (int i = 0; i < N; i++)
-    {
-        for (int j = i+1; j <= i+K; j++)
-        {
-            if (j < N)
-            {
-                dp[j] = min(dp[j], dp[i] + abs(H[i] - H[j]));
-            }
+    for (int i = 0; i < n; i++) {
+        for (int j = 1; j <= k; j++) {
+            dp[i+j] = min(dp[i+j], dp[i] + abs(rocks[i] - rocks[i+j]));
         }
     }
-    cout << dp[N-1];
-
+    cout << dp[n-1] << endl;
     return 0;
 }
