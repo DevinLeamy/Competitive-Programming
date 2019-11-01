@@ -20,7 +20,5 @@ int main() {
         maximum += min(a1, n / k1);
     }
     cout << minimum << " " << maximum << endl;
-    
-    
     return 0;
 }
