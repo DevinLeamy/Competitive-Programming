@@ -1,12 +1,10 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main() {
     ios_base::sync_with_stdio(0);
     string num;
     cin >> num;
-    vector<string> potential;
     int i = (int)num.length() -1;
     string good = "";
     while (i >= 0) {
