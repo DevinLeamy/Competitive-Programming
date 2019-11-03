@@ -1,4 +1,3 @@
-//Not on git
 #include <iostream>
 #include <algorithm>
 using namespace std;
