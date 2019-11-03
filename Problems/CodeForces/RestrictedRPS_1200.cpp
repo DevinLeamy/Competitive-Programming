@@ -1,5 +1,3 @@
-//Not on git
-
 #include <iostream>
 
 using namespace std;
