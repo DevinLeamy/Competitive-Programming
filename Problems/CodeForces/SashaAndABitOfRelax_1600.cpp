@@ -22,5 +22,4 @@ int main() {
     }
     cout << result << endl;
 }
-//if dp[i] - dp[i-n] == 0 and n % 2 == 1 then (i, i-n) is a funny pair
 
