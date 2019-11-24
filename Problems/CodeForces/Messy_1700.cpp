@@ -4,10 +4,7 @@
 
 using namespace std;
 
-// ()()()(()()())
-//Misunderstood the problem
 string s;
-void flip(int);
 int getIndex(int);
 int main() {
     int t, n, k;
@@ -20,7 +17,6 @@ int main() {
         int last = 0;
         vector<pair<int, int>> reversals;
         for (int j = 0; j < n; j++) {
-//            cout << s << endl;
             if (count == k-1) {
                 last = j;
                 break;
@@ -40,7 +36,6 @@ int main() {
         }
         int current = last;
         while (current != n) {
-//            cout << s << endl;
             if (current == n-1) {
                 if (s[current] == '(') {
                     reversals.push_back(make_pair(current, getIndex(current)));
@@ -88,11 +83,4 @@ int getIndex(int index) {
         s[i] = current[i-index];
     }
     return end;
-}
-void flip(int index) {
-    if (s[index] == ')') {
-        s[index] = '(';
-    } else {
-        s[index] = ')';
-    }
 }
