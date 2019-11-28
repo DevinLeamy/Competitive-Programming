@@ -3,8 +3,6 @@
 
 using namespace std;
 
-
-
 int main() {
     int k, n;
     string alphabet = "abcdefghijklmnopqrstuvwxyz";
