@@ -8,6 +8,7 @@ int t, r, c;
 int getNumber(int, int, vector<string>);
 bool visited[25][25];
 int main() {
+    ios_base::sync_with_stdio(0);
     cin >> t;
     string line;
     for (int i = 0; i < t; i++) {
@@ -19,14 +20,10 @@ int main() {
         }
         cout << getNumber(r, c, map) << endl;
     }
-    
     return 0;
 }
 bool isValid(int row, int col, vector<string> map) {
-    if (row >= r || row < 0 || col >= c || col < 0 || map[row][col] == '*' || visited[row][col]) {
-        return false;
-    }
-    return true;
+    return !(row >= r || row < 0 || col >= c || col < 0 || map[row][col] == '*' || visited[row][col]);
 }
 int getNumber(int rows, int cols, vector<string> map) {
     if (map[rows-1][cols-1] == '*') {
@@ -47,13 +44,9 @@ int getNumber(int rows, int cols, vector<string> map) {
         int row = sec.first.first;
         int col = sec.first.second;
         int moves = sec.second;
-        if (visited[row][col]) {
-            continue;
-        }
+        if (visited[row][col]) {continue;}
         visited[row][col] = true;
-        if (row == rows-1 && col== cols-1) {
-            return sec.second;
-        }
+        if (row == rows-1 && col== cols-1) {return moves;}
         if (map[row][col] == '|' || map[row][col] == '+') {
             if (isValid(row+1, col, map)) {
                 current.push({{row + 1, col}, moves+1});
