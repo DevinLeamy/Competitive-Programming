@@ -15,9 +15,9 @@ int main() {
 	int currentTime;
 	cin >> currentTime;
 	doH(7) {
-		if (i == 6 && currentTime != 17) {
+		if (i == 6) {
 			string time = to_string(currentTime);
-			if (time.length() == 3) {time = "0" + time;}
+			while (time.length() != 4) {time = "0" + time;}
 			int hour = stoi(time.substr(0, 2)) + 1;
 			int minute = stoi(time.substr(2, 4));
 			minute += 30;
