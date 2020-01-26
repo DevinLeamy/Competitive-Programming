@@ -1,5 +1,3 @@
-// 7.5/15 Points 
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -23,9 +21,7 @@ int main() {
 	int h, g, rad, b, minL;
 	cin >> r >> c >> k; int currentHigh = 0; int count = 0;
 	vector< vector<int> > city;
-	doH(r) {city.pb(vector<int>(c));fill(city[i].begin(), city[i].end(), 0);
-		
-	}
+	doH(r) {city.pb(vector<int>(c));fill(city[i].begin(), city[i].end(), 0);}
 	for (int i = 0; i < k; i++) {
 		cin >> h >> g >> rad >> b; h--; g--;
 		for (int j = max(0, g-rad); j <= min(r, g + rad); j++) {
@@ -33,13 +29,27 @@ int main() {
 			for (int l = max(0, h-minL); l <= min(c, h+minL); l++) {
 				if (isValid(g, h, j, l, rad)) {
 					city[j][l] += b;
-					if (currentHigh < city[j][l]) {count = 0; currentHigh = city[j][l];}
-					if (city[j][l] == currentHigh) {count++;}
+					break;
+				}
+			}
+			for (int l = min(c-1, h+minL); l >=  max(0, h-minL); l--) {
+				if (isValid(g, h, j, l, rad)) {
+					city[j][l+1] += -b;
+					break;
 				}
 			}
 		}
 	}
-	cout << currentHigh << endl;
+	for (int i = 0; i < r; i++) {
+		if (city[i][0] == currentHigh) {count++;}
+		else if (city[i][0] > currentHigh) {count = 1; currentHigh = city[i][0];}
+		for (int j = 1; j < c; j++) {
+			city[i][j] = city[i][j] + city[i][j-1];
+			if (city[i][j] == currentHigh) {count++;}
+			else if (city[i][j] > currentHigh) {count = 1; currentHigh = city[i][j];}
+		}
+	}
+ 	cout << currentHigh << endl;
 	cout << count << endl;
 	return 0;
 }
