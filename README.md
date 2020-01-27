@@ -3,7 +3,7 @@ Solutions to problems from various online competitive programming websites and <
 competitive programming competitions.
 # Problems
 https://codeforces.com <br/>
-https://www.codechef.com >br/>
+https://www.codechef.com <br/>
 https://dmoj.ca <br/>
 https://open.kattis.com
 # CPC
