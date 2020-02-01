@@ -1,10 +1,10 @@
 # Competitive Programming
 Solutions to problems from various online competitive programming websites and competitive programming competitions. 
 # Problems
-https://codeforces.com <br/>
-https://www.codechef.com <br/>
-https://dmoj.ca <br/>
-https://open.kattis.com
+CodeForces (leamycodes): https://codeforces.com <br/>
+CodeChef (leamycodes): https://www.codechef.com <br/>
+DMOJ (devinleamy): https://dmoj.ca <br/>
+Kattis (devin-leamy): https://open.kattis.com 
 # CPC
 Week One Contest: https://open.kattis.com/contests/ourwqi/standings <br/>
 Week Two Contest: https://open.kattis.com/contests/ucgxf3/standings <br/>
