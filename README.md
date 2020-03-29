@@ -1,5 +1,5 @@
 # Competitive Programming
-Solutions to problems from various online competitive programming websites and competitive programming competitions. 
+My Competitive Programming Archive.
 # Problems
 CodeForces (leamycodes): https://codeforces.com <br/>
 CodeChef (leamycodes): https://www.codechef.com <br/>
