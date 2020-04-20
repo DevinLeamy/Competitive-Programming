@@ -47,4 +47,3 @@ int main() {
                 }
         }
 }
-// AnuHasAFunction.c
