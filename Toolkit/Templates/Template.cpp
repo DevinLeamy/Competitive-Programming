@@ -14,7 +14,7 @@
 #define PL pair<long long, long long>
 #define ll long long
 #define pb push_back
-#define loop(h) for(int i = 0; i < h; i++)
+#define loop(h) while(h--)
 using namespace std;
 char _;
 
