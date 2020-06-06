@@ -1,4 +1,4 @@
-//9/10 Not fast enought. Not the correct Idea
+//9/10 TLE
 #include <iostream>
 #include <vector>
 #include <algorithm>
