@@ -45,26 +45,9 @@ int main() {
 					sorted = false;
 				}
 			}
-			if (sorted) {
-				cout << "Yes" << endl;
-			} else {
-				cout << "No" << endl;
-			}
+			if (sorted) { cout << "Yes" << endl; }
+			else { cout << "No" << endl; }
 		}
-//		sort(vals.begin(), vals.end());
-//		bool can = true;
-//		for (int i = 0; i < n; i++) {
-//			if (vals[i].second.first != i) {
-//				if (type[i] == vals[i].second.second) {
-//					can = false;
-//				}
-//			}
-//		}
-//		if (can) {
-//			cout << "Yes" << endl;
-//		} else {
-//			cout << "No" << endl;
-//		}
 	}
 	return 0;
 }
