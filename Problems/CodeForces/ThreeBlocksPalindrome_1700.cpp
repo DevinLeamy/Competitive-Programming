@@ -49,7 +49,6 @@ int main() {
 			}
 		}
 		cout << max << endl;
-		//Pre array
 	}
 	return 0;
 }
