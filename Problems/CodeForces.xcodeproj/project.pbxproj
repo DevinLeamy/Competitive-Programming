@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03F73C9923622B4C001133C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03EF2A6C2492AF660014DE8F /* 1600_StandardFree2Play.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_StandardFree2Play.cpp; sourceTree = "<group>"; };
+		03EF2A6D2492AF660014DE8F /* 1600_CelexUpdate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_CelexUpdate.cpp; sourceTree = "<group>"; };
+		03EF2A6E2492AF660014DE8F /* 1000_DIYWoodenLadder.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1000_DIYWoodenLadder.java; sourceTree = "<group>"; };
+		03EF2A6F2492AF660014DE8F /* 1300_AlmostEqual.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_AlmostEqual.java; sourceTree = "<group>"; };
+		03EF2A702492AF660014DE8F /* 900_ForgettingThings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 900_ForgettingThings.cpp; sourceTree = "<group>"; };
+		03EF2A712492AF660014DE8F /* 1400_NewsDistribution.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_NewsDistribution.java; sourceTree = "<group>"; };
+		03EF2A722492AF660014DE8F /* 1400_TheDoctorMeetsVader.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_TheDoctorMeetsVader.java; sourceTree = "<group>"; };
+		03EF2A732492AF660014DE8F /* 1300_BookExchange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_BookExchange.cpp; sourceTree = "<group>"; };
+		03EF2A742492AF660014DE8F /* 1400_BinaryPalidrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_BinaryPalidrome.cpp; sourceTree = "<group>"; };
+		03EF2A752492AF660014DE8F /* 1400_SillyMistake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_SillyMistake.cpp; sourceTree = "<group>"; };
+		03EF2A762492AF660014DE8F /* 1000_SinglePush.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_SinglePush.cpp; sourceTree = "<group>"; };
+		03EF2A772492AF660014DE8F /* 1200_EmailFromPolycarp.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1200_EmailFromPolycarp.java; sourceTree = "<group>"; };
+		03EF2A782492AF660014DE8F /* 1500_GoodNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_GoodNumbers.cpp; sourceTree = "<group>"; };
+		03EF2A792492AF660014DE8F /* 1600_SpecialPermutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_SpecialPermutation.cpp; sourceTree = "<group>"; };
+		03EF2A7A2492AF660014DE8F /* 1300_BlockAdventure.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_BlockAdventure.java; sourceTree = "<group>"; };
+		03EF2A7B2492AF660014DE8F /* 1700_XeniaAndBitOperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_XeniaAndBitOperations.cpp; sourceTree = "<group>"; };
+		03EF2A7C2492AF660014DE8F /* 1600_PerfectKeyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_PerfectKeyboard.cpp; sourceTree = "<group>"; };
+		03EF2A7D2492AF660014DE8F /* 1000_CityDay.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1000_CityDay.java; sourceTree = "<group>"; };
+		03EF2A7E2492AF660014DE8F /* 1200_LevelStatistics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_LevelStatistics.cpp; sourceTree = "<group>"; };
+		03EF2A7F2492AF660014DE8F /* 1400_ConstanzesMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_ConstanzesMachine.cpp; sourceTree = "<group>"; };
+		03EF2A802492AF660014DE8F /* 1700_ByElevatorOrStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_ByElevatorOrStairs.cpp; sourceTree = "<group>"; };
+		03EF2A812492AF660014DE8F /* 1300_TroubleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_TroubleSort.cpp; sourceTree = "<group>"; };
+		03EF2A822492AF660014DE8F /* 1000_BerlandPoker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_BerlandPoker.cpp; sourceTree = "<group>"; };
+		03EF2A832492AF660014DE8F /* 1400_PINCodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_PINCodes.cpp; sourceTree = "<group>"; };
+		03EF2A842492AF660014DE8F /* 1000_Pillars.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1000_Pillars.java; sourceTree = "<group>"; };
+		03EF2A852492AF660014DE8F /* 1500_TwoSubstrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_TwoSubstrings.cpp; sourceTree = "<group>"; };
+		03EF2A862492AF660014DE8F /* 1500_WoodCutters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_WoodCutters.cpp; sourceTree = "<group>"; };
+		03EF2A872492AF660014DE8F /* 1300_LoseIt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_LoseIt.cpp; sourceTree = "<group>"; };
+		03EF2A882492AF660014DE8F /* 1300_CommonDivisors.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_CommonDivisors.java; sourceTree = "<group>"; };
+		03EF2A892492AF660014DE8F /* 1200_FlippingGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_FlippingGame.cpp; sourceTree = "<group>"; };
+		03EF2A8A2492AF660014DE8F /* 1100_SportMafia.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1100_SportMafia.java; sourceTree = "<group>"; };
+		03EF2A8B2492AF660014DE8F /* 1600_K-Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1600_K-Tree.cpp"; sourceTree = "<group>"; };
+		03EF2A8C2492AF660014DE8F /* 1100_MatrixGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1100_MatrixGame.cpp; sourceTree = "<group>"; };
+		03EF2A8D2492AF660014DE8F /* 1500_Pairs.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_Pairs.java; sourceTree = "<group>"; };
+		03EF2A8E2492AF660014DE8F /* 1400_DiverseGarland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_DiverseGarland.cpp; sourceTree = "<group>"; };
+		03EF2A8F2492AF660014DE8F /* 1400_LostNumbers.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_LostNumbers.java; sourceTree = "<group>"; };
+		03EF2A902492AF660014DE8F /* 1700_SleepingSchedule.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1700_SleepingSchedule.c; sourceTree = "<group>"; };
+		03EF2A912492AF660014DE8F /* 1500_NastyaAndStrangeGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_NastyaAndStrangeGenerator.cpp; sourceTree = "<group>"; };
+		03EF2A922492AF660014DE8F /* 1300_FromStoT.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_FromStoT.java; sourceTree = "<group>"; };
+		03EF2A932492AF660014DE8F /* 1200_JohnnyAndHisHobbies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_JohnnyAndHisHobbies.cpp; sourceTree = "<group>"; };
+		03EF2A942492AF660014DE8F /* 1500_SubmarineInTheRybinskSea.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_SubmarineInTheRybinskSea.java; sourceTree = "<group>"; };
+		03EF2A952492AF660014DE8F /* 1700_PlateformJumping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_PlateformJumping.cpp; sourceTree = "<group>"; };
+		03EF2A962492AF660014DE8F /* 1400_RotationMatching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_RotationMatching.cpp; sourceTree = "<group>"; };
+		03EF2A972492AF660014DE8F /* 900_MakeProductEqualOne.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 900_MakeProductEqualOne.java; sourceTree = "<group>"; };
+		03EF2A982492AF660014DE8F /* 1200_KuriyamaMiraisStones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_KuriyamaMiraisStones.cpp; sourceTree = "<group>"; };
+		03EF2A992492AF660014DE8F /* 1200_OddSelection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_OddSelection.cpp; sourceTree = "<group>"; };
+		03EF2A9A2492AF660014DE8F /* 1300_TVSubscriptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_TVSubscriptions.cpp; sourceTree = "<group>"; };
+		03EF2A9B2492AF660014DE8F /* 1300_FillingTheGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_FillingTheGrid.cpp; sourceTree = "<group>"; };
+		03EF2A9C2492AF660014DE8F /* 1600_GameWithChips.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1600_GameWithChips.c; sourceTree = "<group>"; };
+		03EF2A9D2492AF660014DE8F /* 1000_WaterLily.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1000_WaterLily.java; sourceTree = "<group>"; };
+		03EF2A9E2492AF660014DE8F /* 1200_OddSumSegments.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1200_OddSumSegments.java; sourceTree = "<group>"; };
+		03EF2A9F2492AF660014DE8F /* 1500_FightWithMonsters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1500_FightWithMonsters.c; sourceTree = "<group>"; };
+		03EF2AA02492AF660014DE8F /* 1600_CatchOverFlow.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_CatchOverFlow.java; sourceTree = "<group>"; };
+		03EF2AA12492AF660014DE8F /* 1500_ZeroArray.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_ZeroArray.java; sourceTree = "<group>"; };
+		03EF2AA22492AF660014DE8F /* 1400_MaximumMedian.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_MaximumMedian.java; sourceTree = "<group>"; };
+		03EF2AA32492AF660014DE8F /* 1700_XeniaAndColorfulGems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_XeniaAndColorfulGems.cpp; sourceTree = "<group>"; };
+		03EF2AA42492AF660014DE8F /* 1400_QuasiBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_QuasiBinary.cpp; sourceTree = "<group>"; };
+		03EF2AA52492AF660014DE8F /* 800_ParkingLight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 800_ParkingLight.cpp; sourceTree = "<group>"; };
+		03EF2AA62492AF660014DE8F /* 1200_RestrictedRPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_RestrictedRPS.cpp; sourceTree = "<group>"; };
+		03EF2AA72492AF660014DE8F /* 1300_BerSUBall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_BerSUBall.cpp; sourceTree = "<group>"; };
+		03EF2AA82492AF660014DE8F /* 1500_GasPipeline.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_GasPipeline.java; sourceTree = "<group>"; };
+		03EF2AA92492AF660014DE8F /* 1500_TokitsukazeAndDiscardItems.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_TokitsukazeAndDiscardItems.java; sourceTree = "<group>"; };
+		03EF2AAA2492AF660014DE8F /* 1700_SpyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_SpyString.cpp; sourceTree = "<group>"; };
+		03EF2AAB2492AF660014DE8F /* 1300_BalancedTunnels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_BalancedTunnels.cpp; sourceTree = "<group>"; };
+		03EF2AAC2492AF660014DE8F /* 1200_EqualRectangles.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1200_EqualRectangles.java; sourceTree = "<group>"; };
+		03EF2AAD2492AF660014DE8F /* 1500_SpecialElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_SpecialElements.cpp; sourceTree = "<group>"; };
+		03EF2AAE2492AF660014DE8F /* 1100_NumberCircle.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1100_NumberCircle.java; sourceTree = "<group>"; };
+		03EF2AAF2492AF660014DE8F /* 1300_YetAnotherCrossesProblem.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_YetAnotherCrossesProblem.java; sourceTree = "<group>"; };
+		03EF2AB02492AF660014DE8F /* 1500_Bishwock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_Bishwock.cpp; sourceTree = "<group>"; };
+		03EF2AB12492AF660014DE8F /* 1800_NewYearParties.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1800_NewYearParties.c; sourceTree = "<group>"; };
+		03EF2AB22492AF660014DE8F /* 1500_SweetsEating.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_SweetsEating.cpp; sourceTree = "<group>"; };
+		03EF2AB32492AF660014DE8F /* 1300_PlusFromPicture.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_PlusFromPicture.java; sourceTree = "<group>"; };
+		03EF2AB42492AF660014DE8F /* 1700_HeidiAndTheTuringTest.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1700_HeidiAndTheTuringTest.java; sourceTree = "<group>"; };
+		03EF2AB52492AF660014DE8F /* 1400_JohnnyAndAnotherRatingDrop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_JohnnyAndAnotherRatingDrop.cpp; sourceTree = "<group>"; };
+		03EF2AB62492AF660014DE8F /* 1500_RegistractionSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_RegistractionSystem.cpp; sourceTree = "<group>"; };
+		03EF2AB72492AF660014DE8F /* 1100_MiddleClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1100_MiddleClass.cpp; sourceTree = "<group>"; };
+		03EF2AB82492AF660014DE8F /* 1400_PoweredAddition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1400_PoweredAddition.c; sourceTree = "<group>"; };
+		03EF2AB92492AF660014DE8F /* 2100_Dijkstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2100_Dijkstra.cpp; sourceTree = "<group>"; };
+		03EF2ABA2492AF660014DE8F /* 1000_MariaBreakstheSelf-isolation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1000_MariaBreakstheSelf-isolation.cpp"; sourceTree = "<group>"; };
+		03EF2ABB2492AF660014DE8F /* 1300_CreatingACharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_CreatingACharacter.cpp; sourceTree = "<group>"; };
+		03EF2ABC2492AF660014DE8F /* 1600_GameOnLeaves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_GameOnLeaves.cpp; sourceTree = "<group>"; };
+		03EF2ABD2492AF660014DE8F /* 1600_DistinctCharacterQueries.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_DistinctCharacterQueries.java; sourceTree = "<group>"; };
+		03EF2ABE2492AF660014DE8F /* 1100_MathProblem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1100_MathProblem.cpp; sourceTree = "<group>"; };
+		03EF2ABF2492AF660014DE8F /* 1600_Bordom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_Bordom.cpp; sourceTree = "<group>"; };
+		03EF2AC02492AF660014DE8F /* 1000_YellowCards.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_YellowCards.cpp; sourceTree = "<group>"; };
+		03EF2AC12492AF660014DE8F /* 1200_ExercisingWalk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1200_ExercisingWalk.c; sourceTree = "<group>"; };
+		03EF2AC22492AF660014DE8F /* 1900_SalaryChanging.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1900_SalaryChanging.cpp; sourceTree = "<group>"; };
+		03EF2AC32492AF660014DE8F /* 1500_CompositeColoring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1500_CompositeColoring.c; sourceTree = "<group>"; };
+		03EF2AC42492AF660014DE8F /* 1000_EqualizePrices.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1000_EqualizePrices.java; sourceTree = "<group>"; };
+		03EF2AC52492AF660014DE8F /* 1000_JohnnyAndAncientComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_JohnnyAndAncientComputer.cpp; sourceTree = "<group>"; };
+		03EF2AC62492AF660014DE8F /* 1300_PrincessesAndPrinces.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1300_PrincessesAndPrinces.c; sourceTree = "<group>"; };
+		03EF2AC72492AF660014DE8F /* 1200_TokitsukazeAndMahjong.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1200_TokitsukazeAndMahjong.java; sourceTree = "<group>"; };
+		03EF2AC82492AF660014DE8F /* 900_ImportantExam.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 900_ImportantExam.java; sourceTree = "<group>"; };
+		03EF2AC92492AF660014DE8F /* 1300_NastyaAndDoor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_NastyaAndDoor.cpp; sourceTree = "<group>"; };
+		03EF2ACA2492AF660014DE8F /* 1300_CutRibbon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_CutRibbon.cpp; sourceTree = "<group>"; };
+		03EF2ACB2492AF660014DE8F /* 1100_DrinksChoosing.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1100_DrinksChoosing.java; sourceTree = "<group>"; };
+		03EF2ACC2492AF660014DE8F /* 1500_BinaryStringReconstruction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_BinaryStringReconstruction.cpp; sourceTree = "<group>"; };
+		03EF2ACD2492AF660014DE8F /* 900_RopeWalkers.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 900_RopeWalkers.java; sourceTree = "<group>"; };
+		03EF2ACE2492AF660014DE8F /* 1700_SolveTheMaze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_SolveTheMaze.cpp; sourceTree = "<group>"; };
+		03EF2ACF2492AF660014DE8F /* 1500_BinaryStringMinimization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_BinaryStringMinimization.cpp; sourceTree = "<group>"; };
+		03EF2AD02492AF660014DE8F /* 1600_LeagueOfLessins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_LeagueOfLessins.cpp; sourceTree = "<group>"; };
+		03EF2AD12492AF660014DE8F /* 1600_CharacterSwap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_CharacterSwap.cpp; sourceTree = "<group>"; };
+		03EF2AD22492AF660014DE8F /* 1500_BicoloredRBS.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_BicoloredRBS.java; sourceTree = "<group>"; };
+		03EF2AD32492AF660014DE8F /* 1000_NewTheatreSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_NewTheatreSquare.cpp; sourceTree = "<group>"; };
+		03EF2AD42492AF660014DE8F /* 1900_TheParade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1900_TheParade.cpp; sourceTree = "<group>"; };
+		03EF2AD52492AF660014DE8F /* 1700_EugeneAndAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_EugeneAndAnArray.cpp; sourceTree = "<group>"; };
+		03EF2AD62492AF660014DE8F /* 1100_BowWowAndTheTimetable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1100_BowWowAndTheTimetable.cpp; sourceTree = "<group>"; };
+		03EF2AD72492AF660014DE8F /* 1600_VusTheCossackAndNumbers.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_VusTheCossackAndNumbers.java; sourceTree = "<group>"; };
+		03EF2AD82492AF660014DE8F /* 1500_WorkoutPlan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_WorkoutPlan.cpp; sourceTree = "<group>"; };
+		03EF2AD92492AF660014DE8F /* 1400_Candies.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_Candies.java; sourceTree = "<group>"; };
+		03EF2ADA2492AF660014DE8F /* 1400_BasketballExercise.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_BasketballExercise.java; sourceTree = "<group>"; };
+		03EF2ADB2492AF660014DE8F /* 1600_ConstructTheArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_ConstructTheArray.cpp; sourceTree = "<group>"; };
+		03EF2ADC2492AF660014DE8F /* 1600_RemoveAdjacent.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1600_RemoveAdjacent.c; sourceTree = "<group>"; };
+		03EF2ADD2492AF660014DE8F /* 1600_PhoenixAndDistribution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_PhoenixAndDistribution.cpp; sourceTree = "<group>"; };
+		03EF2ADE2492AF660014DE8F /* 1600_LinovaAndKingdom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_LinovaAndKingdom.cpp; sourceTree = "<group>"; };
+		03EF2ADF2492AF660014DE8F /* 1000_StringEqualization.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1000_StringEqualization.java; sourceTree = "<group>"; };
+		03EF2AE02492AF660014DE8F /* ThanosSort.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = ThanosSort.java; sourceTree = "<group>"; };
+		03EF2AE12492AF660014DE8F /* 1400_SubsequenceHate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_SubsequenceHate.cpp; sourceTree = "<group>"; };
+		03EF2AE22492AF660014DE8F /* 1200_Box.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_Box.cpp; sourceTree = "<group>"; };
+		03EF2AE32492AF660014DE8F /* 1300_KillEmAll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_KillEmAll.cpp; sourceTree = "<group>"; };
+		03EF2AE42492AF660014DE8F /* 1700_DivideTheStudents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_DivideTheStudents.cpp; sourceTree = "<group>"; };
+		03EF2AE52492AF660014DE8F /* 1400_CandyBox.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_CandyBox.java; sourceTree = "<group>"; };
+		03EF2AE62492AF660014DE8F /* 1500_TravelingAroundTheGoldenRingOfBerland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_TravelingAroundTheGoldenRingOfBerland.cpp; sourceTree = "<group>"; };
+		03EF2AE72492AF660014DE8F /* 1500_RGBSubstring.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_RGBSubstring.java; sourceTree = "<group>"; };
+		03EF2AE82492AF660014DE8F /* 1500_AnuHasAFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1500_AnuHasAFunction.c; sourceTree = "<group>"; };
+		03EF2AE92492AF660014DE8F /* 1300_SubstringGameInTheLesson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_SubstringGameInTheLesson.cpp; sourceTree = "<group>"; };
+		03EF2AEA2492AF660014DE8F /* 1600_ATaleOfTwoLands.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_ATaleOfTwoLands.java; sourceTree = "<group>"; };
+		03EF2AEB2492AF660014DE8F /* 1000_GoodOlNumbersColoring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_GoodOlNumbersColoring.cpp; sourceTree = "<group>"; };
+		03EF2AEC2492AF660014DE8F /* 1600_Maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_Maze.cpp; sourceTree = "<group>"; };
+		03EF2AED2492AF660014DE8F /* 1600_AddOnATree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_AddOnATree.cpp; sourceTree = "<group>"; };
+		03EF2AEE2492AF660014DE8F /* 1200_SquareFilling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_SquareFilling.cpp; sourceTree = "<group>"; };
+		03EF2AEF2492AF660014DE8F /* 1500_ValeriyAndDeque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_ValeriyAndDeque.cpp; sourceTree = "<group>"; };
+		03EF2AF02492AF660014DE8F /* 1000_Hotelier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_Hotelier.cpp; sourceTree = "<group>"; };
+		03EF2AF12492AF660014DE8F /* 1100_CircleOfStudents.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1100_CircleOfStudents.java; sourceTree = "<group>"; };
+		03EF2AF22492AF660014DE8F /* 1600_SaveTheNature.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_SaveTheNature.java; sourceTree = "<group>"; };
+		03EF2AF32492AF660014DE8F /* 1700_JohnnyAndContribution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_JohnnyAndContribution.cpp; sourceTree = "<group>"; };
+		03EF2AF42492AF660014DE8F /* 1500_RobotBreakout.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_RobotBreakout.java; sourceTree = "<group>"; };
+		03EF2AF52492AF660014DE8F /* 1700_Elections.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1700_Elections.c; sourceTree = "<group>"; };
+		03EF2AF62492AF660014DE8F /* 1400_GivenLengthAndSumOfDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_GivenLengthAndSumOfDigits.cpp; sourceTree = "<group>"; };
+		03EF2AF72492AF660014DE8F /* 1200_ExamInBerSU.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1200_ExamInBerSU.java; sourceTree = "<group>"; };
+		03EF2AF82492AF660014DE8F /* 1600_KForThePriceOfOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1600_KForThePriceOfOne.c; sourceTree = "<group>"; };
+		03EF2AF92492AF660014DE8F /* 1600_ZmeiGorynich.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_ZmeiGorynich.java; sourceTree = "<group>"; };
+		03EF2AFA2492AF660014DE8F /* 1900_MaximumSubsequenceValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1900_MaximumSubsequenceValue.cpp; sourceTree = "<group>"; };
+		03EF2AFB2492AF660014DE8F /* 800_RemoveAProgression.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 800_RemoveAProgression.java; sourceTree = "<group>"; };
+		03EF2AFC2492AF660014DE8F /* 1400_Pipes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_Pipes.cpp; sourceTree = "<group>"; };
+		03EF2AFD2492AF660014DE8F /* 1000_BrokenKeyBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000_BrokenKeyBoard.cpp; sourceTree = "<group>"; };
+		03EF2AFE2492AF660014DE8F /* 1600_PBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_PBinary.cpp; sourceTree = "<group>"; };
+		03EF2AFF2492AF660014DE8F /* 1400_Vacations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_Vacations.cpp; sourceTree = "<group>"; };
+		03EF2B002492AF660014DE8F /* 1200_SweetProblem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1200_SweetProblem.cpp; sourceTree = "<group>"; };
+		03EF2B012492AF660014DE8F /* 1400_Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_Queue.cpp; sourceTree = "<group>"; };
+		03EF2B022492AF660014DE8F /* 1300_Brutality.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1300_Brutality.java; sourceTree = "<group>"; };
+		03EF2B032492AF660014DE8F /* 1400_IceSkating.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1400_IceSkating.cpp; sourceTree = "<group>"; };
+		03EF2B042492AF660014DE8F /* 1500_Boxers.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1500_Boxers.java; sourceTree = "<group>"; };
+		03EF2B052492AF660014DE8F /* 1300_WowFactor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1300_WowFactor.cpp; sourceTree = "<group>"; };
+		03EF2B062492AF660014DE8F /* 1700_PaintTheTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_PaintTheTree.cpp; sourceTree = "<group>"; };
+		03EF2B072492AF660014DE8F /* 1900_TooManySegments.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1900_TooManySegments.cpp; sourceTree = "<group>"; };
+		03EF2B082492AF660014DE8F /* 600_CME.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 600_CME.java; sourceTree = "<group>"; };
+		03EF2B092492AF660014DE8F /* 2200_DecreasingHeights.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2200_DecreasingHeights.cpp; sourceTree = "<group>"; };
+		03EF2B0A2492AF660014DE8F /* 1100_BadPrices.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1100_BadPrices.java; sourceTree = "<group>"; };
+		03EF2B0B2492AF660014DE8F /* 1700_ThreeBlocksPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_ThreeBlocksPalindrome.cpp; sourceTree = "<group>"; };
+		03EF2B0C2492AF660014DE8F /* 1600_ParallelUniverses.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1600_ParallelUniverses.java; sourceTree = "<group>"; };
+		03EF2B0D2492AF660014DE8F /* 1700_Messy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_Messy.cpp; sourceTree = "<group>"; };
+		03EF2B0E2492AF660014DE8F /* 1800_Garland.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1800_Garland.c; sourceTree = "<group>"; };
+		03EF2B0F2492AF660014DE8F /* 1500_DivisibilityByEight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1500_DivisibilityByEight.cpp; sourceTree = "<group>"; };
+		03EF2B102492AF660014DE8F /* 1200_BadSequences.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1200_BadSequences.java; sourceTree = "<group>"; };
+		03EF2B112492AF660014DE8F /* 900_NearestInterestingNumber.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 900_NearestInterestingNumber.java; sourceTree = "<group>"; };
+		03EF2B122492AF660014DE8F /* 900_NastyaAndRice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 900_NastyaAndRice.cpp; sourceTree = "<group>"; };
+		03EF2B132492AF660014DE8F /* 1600_SashaAndABitOfRelax.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1600_SashaAndABitOfRelax.cpp; sourceTree = "<group>"; };
+		03EF2B142492AF660014DE8F /* 1400_ArraySplitting.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = 1400_ArraySplitting.java; sourceTree = "<group>"; };
+		03EF2B152492AF660014DE8F /* 1700_NastyaAndScoreboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_NastyaAndScoreboard.cpp; sourceTree = "<group>"; };
+		03EF2B162492AF660014DE8F /* 1700_MixingWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_MixingWater.cpp; sourceTree = "<group>"; };
+		03EF2B172492AF660014DE8F /* 1700_ConstantPalindromeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1700_ConstantPalindromeSum.cpp; sourceTree = "<group>"; };
+		03EF2B192492AFEF0014DE8F /* AssigningToClasses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AssigningToClasses.cpp; sourceTree = "<group>"; };
+		03EF2B1B2492B0240014DE8F /* CharacterSwapE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterSwapE.cpp; sourceTree = "<group>"; };
+		03EF2B1C2492B03E0014DE8F /* NonZero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NonZero.cpp; sourceTree = "<group>"; };
+		03EF2B1D2492B06E0014DE8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03F73C9B23622B4C001133C0 /* CodeForces */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeForces; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F73C9823622B4C001133C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EF2A6B2492AF660014DE8F /* CodeForces */ = {
+			isa = PBXGroup;
+			children = (
+				03EF2B1D2492B06E0014DE8F /* main.cpp */,
+				03EF2B1C2492B03E0014DE8F /* NonZero.cpp */,
+				03EF2B1B2492B0240014DE8F /* CharacterSwapE.cpp */,
+				03EF2B192492AFEF0014DE8F /* AssigningToClasses.cpp */,
+				03EF2A6C2492AF660014DE8F /* 1600_StandardFree2Play.cpp */,
+				03EF2A6D2492AF660014DE8F /* 1600_CelexUpdate.cpp */,
+				03EF2A6E2492AF660014DE8F /* 1000_DIYWoodenLadder.java */,
+				03EF2A6F2492AF660014DE8F /* 1300_AlmostEqual.java */,
+				03EF2A702492AF660014DE8F /* 900_ForgettingThings.cpp */,
+				03EF2A712492AF660014DE8F /* 1400_NewsDistribution.java */,
+				03EF2A722492AF660014DE8F /* 1400_TheDoctorMeetsVader.java */,
+				03EF2A732492AF660014DE8F /* 1300_BookExchange.cpp */,
+				03EF2A742492AF660014DE8F /* 1400_BinaryPalidrome.cpp */,
+				03EF2A752492AF660014DE8F /* 1400_SillyMistake.cpp */,
+				03EF2A762492AF660014DE8F /* 1000_SinglePush.cpp */,
+				03EF2A772492AF660014DE8F /* 1200_EmailFromPolycarp.java */,
+				03EF2A782492AF660014DE8F /* 1500_GoodNumbers.cpp */,
+				03EF2A792492AF660014DE8F /* 1600_SpecialPermutation.cpp */,
+				03EF2A7A2492AF660014DE8F /* 1300_BlockAdventure.java */,
+				03EF2A7B2492AF660014DE8F /* 1700_XeniaAndBitOperations.cpp */,
+				03EF2A7C2492AF660014DE8F /* 1600_PerfectKeyboard.cpp */,
+				03EF2A7D2492AF660014DE8F /* 1000_CityDay.java */,
+				03EF2A7E2492AF660014DE8F /* 1200_LevelStatistics.cpp */,
+				03EF2A7F2492AF660014DE8F /* 1400_ConstanzesMachine.cpp */,
+				03EF2A802492AF660014DE8F /* 1700_ByElevatorOrStairs.cpp */,
+				03EF2A812492AF660014DE8F /* 1300_TroubleSort.cpp */,
+				03EF2A822492AF660014DE8F /* 1000_BerlandPoker.cpp */,
+				03EF2A832492AF660014DE8F /* 1400_PINCodes.cpp */,
+				03EF2A842492AF660014DE8F /* 1000_Pillars.java */,
+				03EF2A852492AF660014DE8F /* 1500_TwoSubstrings.cpp */,
+				03EF2A862492AF660014DE8F /* 1500_WoodCutters.cpp */,
+				03EF2A872492AF660014DE8F /* 1300_LoseIt.cpp */,
+				03EF2A882492AF660014DE8F /* 1300_CommonDivisors.java */,
+				03EF2A892492AF660014DE8F /* 1200_FlippingGame.cpp */,
+				03EF2A8A2492AF660014DE8F /* 1100_SportMafia.java */,
+				03EF2A8B2492AF660014DE8F /* 1600_K-Tree.cpp */,
+				03EF2A8C2492AF660014DE8F /* 1100_MatrixGame.cpp */,
+				03EF2A8D2492AF660014DE8F /* 1500_Pairs.java */,
+				03EF2A8E2492AF660014DE8F /* 1400_DiverseGarland.cpp */,
+				03EF2A8F2492AF660014DE8F /* 1400_LostNumbers.java */,
+				03EF2A902492AF660014DE8F /* 1700_SleepingSchedule.c */,
+				03EF2A912492AF660014DE8F /* 1500_NastyaAndStrangeGenerator.cpp */,
+				03EF2A922492AF660014DE8F /* 1300_FromStoT.java */,
+				03EF2A932492AF660014DE8F /* 1200_JohnnyAndHisHobbies.cpp */,
+				03EF2A942492AF660014DE8F /* 1500_SubmarineInTheRybinskSea.java */,
+				03EF2A952492AF660014DE8F /* 1700_PlateformJumping.cpp */,
+				03EF2A962492AF660014DE8F /* 1400_RotationMatching.cpp */,
+				03EF2A972492AF660014DE8F /* 900_MakeProductEqualOne.java */,
+				03EF2A982492AF660014DE8F /* 1200_KuriyamaMiraisStones.cpp */,
+				03EF2A992492AF660014DE8F /* 1200_OddSelection.cpp */,
+				03EF2A9A2492AF660014DE8F /* 1300_TVSubscriptions.cpp */,
+				03EF2A9B2492AF660014DE8F /* 1300_FillingTheGrid.cpp */,
+				03EF2A9C2492AF660014DE8F /* 1600_GameWithChips.c */,
+				03EF2A9D2492AF660014DE8F /* 1000_WaterLily.java */,
+				03EF2A9E2492AF660014DE8F /* 1200_OddSumSegments.java */,
+				03EF2A9F2492AF660014DE8F /* 1500_FightWithMonsters.c */,
+				03EF2AA02492AF660014DE8F /* 1600_CatchOverFlow.java */,
+				03EF2AA12492AF660014DE8F /* 1500_ZeroArray.java */,
+				03EF2AA22492AF660014DE8F /* 1400_MaximumMedian.java */,
+				03EF2AA32492AF660014DE8F /* 1700_XeniaAndColorfulGems.cpp */,
+				03EF2AA42492AF660014DE8F /* 1400_QuasiBinary.cpp */,
+				03EF2AA52492AF660014DE8F /* 800_ParkingLight.cpp */,
+				03EF2AA62492AF660014DE8F /* 1200_RestrictedRPS.cpp */,
+				03EF2AA72492AF660014DE8F /* 1300_BerSUBall.cpp */,
+				03EF2AA82492AF660014DE8F /* 1500_GasPipeline.java */,
+				03EF2AA92492AF660014DE8F /* 1500_TokitsukazeAndDiscardItems.java */,
+				03EF2AAA2492AF660014DE8F /* 1700_SpyString.cpp */,
+				03EF2AAB2492AF660014DE8F /* 1300_BalancedTunnels.cpp */,
+				03EF2AAC2492AF660014DE8F /* 1200_EqualRectangles.java */,
+				03EF2AAD2492AF660014DE8F /* 1500_SpecialElements.cpp */,
+				03EF2AAE2492AF660014DE8F /* 1100_NumberCircle.java */,
+				03EF2AAF2492AF660014DE8F /* 1300_YetAnotherCrossesProblem.java */,
+				03EF2AB02492AF660014DE8F /* 1500_Bishwock.cpp */,
+				03EF2AB12492AF660014DE8F /* 1800_NewYearParties.c */,
+				03EF2AB22492AF660014DE8F /* 1500_SweetsEating.cpp */,
+				03EF2AB32492AF660014DE8F /* 1300_PlusFromPicture.java */,
+				03EF2AB42492AF660014DE8F /* 1700_HeidiAndTheTuringTest.java */,
+				03EF2AB52492AF660014DE8F /* 1400_JohnnyAndAnotherRatingDrop.cpp */,
+				03EF2AB62492AF660014DE8F /* 1500_RegistractionSystem.cpp */,
+				03EF2AB72492AF660014DE8F /* 1100_MiddleClass.cpp */,
+				03EF2AB82492AF660014DE8F /* 1400_PoweredAddition.c */,
+				03EF2AB92492AF660014DE8F /* 2100_Dijkstra.cpp */,
+				03EF2ABA2492AF660014DE8F /* 1000_MariaBreakstheSelf-isolation.cpp */,
+				03EF2ABB2492AF660014DE8F /* 1300_CreatingACharacter.cpp */,
+				03EF2ABC2492AF660014DE8F /* 1600_GameOnLeaves.cpp */,
+				03EF2ABD2492AF660014DE8F /* 1600_DistinctCharacterQueries.java */,
+				03EF2ABE2492AF660014DE8F /* 1100_MathProblem.cpp */,
+				03EF2ABF2492AF660014DE8F /* 1600_Bordom.cpp */,
+				03EF2AC02492AF660014DE8F /* 1000_YellowCards.cpp */,
+				03EF2AC12492AF660014DE8F /* 1200_ExercisingWalk.c */,
+				03EF2AC22492AF660014DE8F /* 1900_SalaryChanging.cpp */,
+				03EF2AC32492AF660014DE8F /* 1500_CompositeColoring.c */,
+				03EF2AC42492AF660014DE8F /* 1000_EqualizePrices.java */,
+				03EF2AC52492AF660014DE8F /* 1000_JohnnyAndAncientComputer.cpp */,
+				03EF2AC62492AF660014DE8F /* 1300_PrincessesAndPrinces.c */,
+				03EF2AC72492AF660014DE8F /* 1200_TokitsukazeAndMahjong.java */,
+				03EF2AC82492AF660014DE8F /* 900_ImportantExam.java */,
+				03EF2AC92492AF660014DE8F /* 1300_NastyaAndDoor.cpp */,
+				03EF2ACA2492AF660014DE8F /* 1300_CutRibbon.cpp */,
+				03EF2ACB2492AF660014DE8F /* 1100_DrinksChoosing.java */,
+				03EF2ACC2492AF660014DE8F /* 1500_BinaryStringReconstruction.cpp */,
+				03EF2ACD2492AF660014DE8F /* 900_RopeWalkers.java */,
+				03EF2ACE2492AF660014DE8F /* 1700_SolveTheMaze.cpp */,
+				03EF2ACF2492AF660014DE8F /* 1500_BinaryStringMinimization.cpp */,
+				03EF2AD02492AF660014DE8F /* 1600_LeagueOfLessins.cpp */,
+				03EF2AD12492AF660014DE8F /* 1600_CharacterSwap.cpp */,
+				03EF2AD22492AF660014DE8F /* 1500_BicoloredRBS.java */,
+				03EF2AD32492AF660014DE8F /* 1000_NewTheatreSquare.cpp */,
+				03EF2AD42492AF660014DE8F /* 1900_TheParade.cpp */,
+				03EF2AD52492AF660014DE8F /* 1700_EugeneAndAnArray.cpp */,
+				03EF2AD62492AF660014DE8F /* 1100_BowWowAndTheTimetable.cpp */,
+				03EF2AD72492AF660014DE8F /* 1600_VusTheCossackAndNumbers.java */,
+				03EF2AD82492AF660014DE8F /* 1500_WorkoutPlan.cpp */,
+				03EF2AD92492AF660014DE8F /* 1400_Candies.java */,
+				03EF2ADA2492AF660014DE8F /* 1400_BasketballExercise.java */,
+				03EF2ADB2492AF660014DE8F /* 1600_ConstructTheArray.cpp */,
+				03EF2ADC2492AF660014DE8F /* 1600_RemoveAdjacent.c */,
+				03EF2ADD2492AF660014DE8F /* 1600_PhoenixAndDistribution.cpp */,
+				03EF2ADE2492AF660014DE8F /* 1600_LinovaAndKingdom.cpp */,
+				03EF2ADF2492AF660014DE8F /* 1000_StringEqualization.java */,
+				03EF2AE02492AF660014DE8F /* ThanosSort.java */,
+				03EF2AE12492AF660014DE8F /* 1400_SubsequenceHate.cpp */,
+				03EF2AE22492AF660014DE8F /* 1200_Box.cpp */,
+				03EF2AE32492AF660014DE8F /* 1300_KillEmAll.cpp */,
+				03EF2AE42492AF660014DE8F /* 1700_DivideTheStudents.cpp */,
+				03EF2AE52492AF660014DE8F /* 1400_CandyBox.java */,
+				03EF2AE62492AF660014DE8F /* 1500_TravelingAroundTheGoldenRingOfBerland.cpp */,
+				03EF2AE72492AF660014DE8F /* 1500_RGBSubstring.java */,
+				03EF2AE82492AF660014DE8F /* 1500_AnuHasAFunction.c */,
+				03EF2AE92492AF660014DE8F /* 1300_SubstringGameInTheLesson.cpp */,
+				03EF2AEA2492AF660014DE8F /* 1600_ATaleOfTwoLands.java */,
+				03EF2AEB2492AF660014DE8F /* 1000_GoodOlNumbersColoring.cpp */,
+				03EF2AEC2492AF660014DE8F /* 1600_Maze.cpp */,
+				03EF2AED2492AF660014DE8F /* 1600_AddOnATree.cpp */,
+				03EF2AEE2492AF660014DE8F /* 1200_SquareFilling.cpp */,
+				03EF2AEF2492AF660014DE8F /* 1500_ValeriyAndDeque.cpp */,
+				03EF2AF02492AF660014DE8F /* 1000_Hotelier.cpp */,
+				03EF2AF12492AF660014DE8F /* 1100_CircleOfStudents.java */,
+				03EF2AF22492AF660014DE8F /* 1600_SaveTheNature.java */,
+				03EF2AF32492AF660014DE8F /* 1700_JohnnyAndContribution.cpp */,
+				03EF2AF42492AF660014DE8F /* 1500_RobotBreakout.java */,
+				03EF2AF52492AF660014DE8F /* 1700_Elections.c */,
+				03EF2AF62492AF660014DE8F /* 1400_GivenLengthAndSumOfDigits.cpp */,
+				03EF2AF72492AF660014DE8F /* 1200_ExamInBerSU.java */,
+				03EF2AF82492AF660014DE8F /* 1600_KForThePriceOfOne.c */,
+				03EF2AF92492AF660014DE8F /* 1600_ZmeiGorynich.java */,
+				03EF2AFA2492AF660014DE8F /* 1900_MaximumSubsequenceValue.cpp */,
+				03EF2AFB2492AF660014DE8F /* 800_RemoveAProgression.java */,
+				03EF2AFC2492AF660014DE8F /* 1400_Pipes.cpp */,
+				03EF2AFD2492AF660014DE8F /* 1000_BrokenKeyBoard.cpp */,
+				03EF2AFE2492AF660014DE8F /* 1600_PBinary.cpp */,
+				03EF2AFF2492AF660014DE8F /* 1400_Vacations.cpp */,
+				03EF2B002492AF660014DE8F /* 1200_SweetProblem.cpp */,
+				03EF2B012492AF660014DE8F /* 1400_Queue.cpp */,
+				03EF2B022492AF660014DE8F /* 1300_Brutality.java */,
+				03EF2B032492AF660014DE8F /* 1400_IceSkating.cpp */,
+				03EF2B042492AF660014DE8F /* 1500_Boxers.java */,
+				03EF2B052492AF660014DE8F /* 1300_WowFactor.cpp */,
+				03EF2B062492AF660014DE8F /* 1700_PaintTheTree.cpp */,
+				03EF2B072492AF660014DE8F /* 1900_TooManySegments.cpp */,
+				03EF2B082492AF660014DE8F /* 600_CME.java */,
+				03EF2B092492AF660014DE8F /* 2200_DecreasingHeights.cpp */,
+				03EF2B0A2492AF660014DE8F /* 1100_BadPrices.java */,
+				03EF2B0B2492AF660014DE8F /* 1700_ThreeBlocksPalindrome.cpp */,
+				03EF2B0C2492AF660014DE8F /* 1600_ParallelUniverses.java */,
+				03EF2B0D2492AF660014DE8F /* 1700_Messy.cpp */,
+				03EF2B0E2492AF660014DE8F /* 1800_Garland.c */,
+				03EF2B0F2492AF660014DE8F /* 1500_DivisibilityByEight.cpp */,
+				03EF2B102492AF660014DE8F /* 1200_BadSequences.java */,
+				03EF2B112492AF660014DE8F /* 900_NearestInterestingNumber.java */,
+				03EF2B122492AF660014DE8F /* 900_NastyaAndRice.cpp */,
+				03EF2B132492AF660014DE8F /* 1600_SashaAndABitOfRelax.cpp */,
+				03EF2B142492AF660014DE8F /* 1400_ArraySplitting.java */,
+				03EF2B152492AF660014DE8F /* 1700_NastyaAndScoreboard.cpp */,
+				03EF2B162492AF660014DE8F /* 1700_MixingWater.cpp */,
+				03EF2B172492AF660014DE8F /* 1700_ConstantPalindromeSum.cpp */,
+			);
+			path = CodeForces;
+			sourceTree = "<group>";
+		};
+		03F73C9223622B4C001133C0 = {
+			isa = PBXGroup;
+			children = (
+				03F73C9C23622B4C001133C0 /* Products */,
+				03EF2A6B2492AF660014DE8F /* CodeForces */,
+			);
+			sourceTree = "<group>";
+		};
+		03F73C9C23622B4C001133C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F73C9B23622B4C001133C0 /* CodeForces */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F73C9A23622B4C001133C0 /* CodeForces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F73CA223622B4C001133C0 /* Build configuration list for PBXNativeTarget "CodeForces" */;
+			buildPhases = (
+				03F73C9723622B4C001133C0 /* Sources */,
+				03F73C9823622B4C001133C0 /* Frameworks */,
+				03F73C9923622B4C001133C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeForces;
+			productName = CodeForces;
+			productReference = 03F73C9B23622B4C001133C0 /* CodeForces */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F73C9323622B4C001133C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Devin Leamy";
+				TargetAttributes = {
+					03F73C9A23622B4C001133C0 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 03F73C9623622B4C001133C0 /* Build configuration list for PBXProject "CodeForces" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F73C9223622B4C001133C0;
+			productRefGroup = 03F73C9C23622B4C001133C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F73C9A23622B4C001133C0 /* CodeForces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F73C9723622B4C001133C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03F73CA023622B4C001133C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03F73CA123622B4C001133C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03F73CA323622B4C001133C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7M6P87SGL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03F73CA423622B4C001133C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7M6P87SGL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F73C9623622B4C001133C0 /* Build configuration list for PBXProject "CodeForces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F73CA023622B4C001133C0 /* Debug */,
+				03F73CA123622B4C001133C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F73CA223622B4C001133C0 /* Build configuration list for PBXNativeTarget "CodeForces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F73CA323622B4C001133C0 /* Debug */,
+				03F73CA423622B4C001133C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F73C9323622B4C001133C0 /* Project object */;
+}
