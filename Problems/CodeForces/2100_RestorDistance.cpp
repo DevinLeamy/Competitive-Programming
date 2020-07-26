@@ -31,9 +31,8 @@ ll cost(ll high) {
 	}
 	if (m < a + r) {
 		return (min(above, below) * m) + ((above - min(above, below)) * r) + ((below - min(above, below)) * a);
-	} else {
-		return above * r + below * a;
 	}
+	return above * r + below * a;
 }
 ll ternarySearch(ll low, ll high) {
 	while (high - low > 3) {
