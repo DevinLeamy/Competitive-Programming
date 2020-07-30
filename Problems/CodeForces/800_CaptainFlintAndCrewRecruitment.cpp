@@ -22,10 +22,9 @@ int main() {
 	int t; cin >> t;
 	loop(t) {
 		int n; cin >> n;
-		//2*3, 2*5, 2*7
-		if (n > 2*3 + 2*5 + 2*7) {
+		int total = 2*3 + 2*5 + 2*7;
+		if (n > total) {
 			cout << "YES" << endl;
-			int total = 2*3 + 2*5 + 2*7;
 			if (n - total == 14 || n-total == 10 || n-total == 6) {
 				total += 1;
 				cout << 2*3 << " " << 2*5 << " " << 3 * 5 << " " << n - total << endl;
