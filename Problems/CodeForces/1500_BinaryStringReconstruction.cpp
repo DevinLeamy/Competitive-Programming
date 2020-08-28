@@ -17,68 +17,39 @@
 using namespace std;
 char _;
 
-string ans;
-int n;
-bool backtracking(int n2, int n1, int n0, int pos, int last, string val) {
-	if (n2 + n1 + n0 == 0 && pos == n) {
-		ans = val;
-		return true;
-	}
-	if (pos == 0) {
-		val[0] = '0';
-		if (backtracking(n2, n1, n0, pos + 1, 0, val)) {
-			return true;
-		}
-		val[0] = '1';
-		if (backtracking(n2, n1, n0, pos + 1, 1, val)) {
-			return true;
-		}
-	}
-	if (last == 0) {
-		if (n0 > 0) {
-			val[pos] = '0';
-			if (backtracking(n2, n1, n0 - 1, pos + 1, 0, val)) {
-				return true;
-			}
-			val[pos] = '*';
-		}
-		if (n1 > 0) {
-			val[pos] = '1';
-			if (backtracking(n2, n1 - 1, n0, pos + 1, 1, val)) {
-				return true;
-			}
-			val[pos] = '*';
-		}
-	} else {
-		if (n2 > 0) {
-			val[pos] = '1';
-			if (backtracking(n2 - 1, n1, n0, pos + 1, 1, val)) {
-				return true;
-			}
-			val[pos] = '*';
-		}
-		if (n1 > 0) {
-			val[pos] = '0';
-			if (backtracking(n2, n1 - 1, n0, pos + 1, 0, val)) {
-				return true;
-			}
-			val[pos] = '*';
-		}
-	}
-	return false;
-}
 int main() {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	int t; cin >> t;
 	loop(t) {
-		int n1, n2, n3;
-		cin >> n1 >> n2 >> n3;
-		n = n1 + n2 + n3 + 1;
-		string val = "";
-		for (int i = 0; i < n; i++) { val += "0"; }
-		backtracking(n3, n2, n1, 0, 0, val);
-		cout << ans << endl;
-		
+		string s; cin >> s;
+		int x; cin >> x;
+		string ans((int)s.length(), '1');
+		for (int i = 0; i < s.length(); i++) {
+			if (s[i] == '1') continue;
+			if (i - x >= 0) {
+				ans[i-x] = '0';
+			}
+			if (i + x < s.length()) {
+				ans[i + x] = '0';
+			}
+		}
+		bool works = true;
+		for (int i = 0; i < s.length(); i++) {
+			if (s[i] == '0') continue;
+			bool has = false;
+			if (i - x >= 0 && ans[i-x] == '1') {
+				has = true;
+			}
+			if (i + x < s.length() && ans[i+x] == '1') {
+				has = true;
+			}
+			if (!has) works = false;
+		}
+		if (works) {
+			cout << ans << endl;
+		} else {
+			cout << -1 << endl;
+		}
 	}
 	return 0;
 }
