@@ -1,0 +1,41 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+#include <queue>
+#include <set>
+#include <map>
+#include <string>
+#include <iomanip>
+#define INF 2147483647
+#define LINF 9223372036854775807ll
+#define PI pair<int, int>
+#define PL pair<long long, long long>
+#define ll long long
+#define pb push_back
+#define loop(h) while(h--)
+using namespace std;
+char _;
+
+int main() {
+	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); cout.precision(10);
+	int t; cin >> t;
+	loop(t) {
+		int n; cin >> n;
+		vector<ll> cnt(n);
+		ll max = 0;
+		ll total = 0;
+		for (int i = 0; i < n; i++) {
+			cin >> cnt[i];
+			max = std::max(max, cnt[i]);
+			total += cnt[i];
+		}
+		if (total > max*(n-1)) {
+			ll diff = total - max*(n-1);
+			ll add = ceil((double)diff/(n-1));
+			max += add;
+		}
+		cout << max*(n-1) - total << endl;
+	}
+	return 0;
+}
