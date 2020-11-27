@@ -33,6 +33,22 @@ ll divide(ll a, ll b) {
 	return (a * binexp(b, mod-2)) % mod;
 }
 
+ll fact(ll n) {
+	if (n <= 0) return 1;
+	ll res = 1;
+	while (n > 0) {
+		res *= n;
+		n--;
+		res %= mod;
+	}
+	return res;
+}
+
+ll nCr(int n, int r) {
+	if (r > n) return 0;
+	return divide(fact(n), mult(fact(r), fact(n - r)));
+}
+
 int main() {
 	return 0;
 }
