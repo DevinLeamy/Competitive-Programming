@@ -1,4 +1,6 @@
 .DS_Store
 Problems/CodeForces.xcodeproj/
 main.cpp
-Problems/Codeforces_Edu/
+Problems/Codeforces_Edu
+Problems/CodeForces/modular_arithmetic.cpp
+
