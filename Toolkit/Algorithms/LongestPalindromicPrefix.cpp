@@ -1,4 +1,8 @@
 // KMP Algorithm for Longest Palindromic Prefix
+#include <string>
+#include <vector>
+
+using namespace std;
 
 int long_pal_pre(string s) {
 	string _s = s; reverse(_s.begin(), _s.end());
@@ -17,7 +21,7 @@ int long_pal_pre(string s) {
 }
 
 int main() {
-  string test = "abccbagg";
-  string result = long_pal_pre(test);
-  assert(result == "abccba");
+	string test = "abccbagg";
+	int result = long_pal_pre(test);
+	assert(test.substr(0, result) == "abccba");
 }
