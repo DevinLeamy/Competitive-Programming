@@ -19,7 +19,7 @@ int long_inc_sub(vector<int> &vals) {
 			last[len] = val;
 			len++;
 		} else {
-			int bound = (int) (upper_bound(last.begin(), last.end(), val) - last.begin());
+			int bound = (int) (lower_bound(last.begin(), last.end(), val) - last.begin());
 			last[bound] = val;
 		}
 	}
