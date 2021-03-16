@@ -31,7 +31,7 @@ bool solve(vector<pair<ll, int> > &row1, vector<pair<ll, int> > &row2, vector<ve
 			continue;
 		}
 		int cur = 0;
-		while (binary_search(aadj[i].begin(), aadj[i].end(), row1[cur].second))
+		while (binary_search(aadj[i].begin(), aadj[i].end(), row1[cur].second)) // Make sure aadj[i] is sorted!
 			cur++;
 		if (row1[cur].first == LINF) {
 			row2[i].first = LINF;
