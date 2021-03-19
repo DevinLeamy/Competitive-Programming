@@ -46,7 +46,6 @@ int main() {
 	for (int i = n - 1; i >= 0; i--) {
 		if (s[i] == '0' || s[i] == '5') {
 			ll rem = i;
-			// logic here
 			ll numerator = binexp(two_n, k) - 1;
 			ll denominator = two_n - 1;
 			ll sum = divide(numerator, denominator);
