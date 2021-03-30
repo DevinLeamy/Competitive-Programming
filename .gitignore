@@ -4,6 +4,8 @@ main.cpp
 Problems/Codeforces_Edu
 Problems/CodeForces/modular_arithmetic.cpp
 Problems/AtCoder/AtCoder/modular_arithmetic.cpp
+Problems/CSES/CSES/modular_arithmetic.cpp
 Problems/AtCoder/AtCoder.xcodeproj/
+Problems/CSES/CSES.xcodeproj/
 .gitignore
 
