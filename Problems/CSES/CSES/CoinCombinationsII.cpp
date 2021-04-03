@@ -17,31 +17,26 @@
 #define loop(h) while(h--)
 #define view(h) cout<<"DEBUG: " << h << endl
 using namespace std;
-char _;
 
-ll cnt[5001];
-ll dp[5001][5001] = {0};
 int main() {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); cout.precision(10);
-	string s; cin >> s;
-	int n = (int) s.length();
-
-	for (int len = 1; len <= s.length(); ++len) {
-		for (int i = 0; i <= s.size() - len; ++i) {
-			if (len == 1)
-				dp[i][len] = 1;
-			else if (len == 2 && s[i] == s[i + 1])
-				dp[i][len] = 2;
-			else if (dp[i + 1][len - 2] && s[i] == s[i + len - 1])
-				dp[i][len] = dp[i][len / 2] + 1;
-			++cnt[dp[i][len]];
+	int n, x; cin >> n >> x;
+	ll mod = 1000000007ll;
+	vector<int> coins(n);
+	for (int i = 0; i < n; i++)
+		cin >> coins[i];
+	sort(coins.begin(), coins.end());
+	vector<vector<int>> dp(n + 1, vector<int>(x + 1, 0));
+	dp[0][0] = 1;
+	for (int i = 1; i <= n; i++) {
+		for (int j = 0; j <= x; j++) {
+			dp[i][j] = dp[i - 1][j];
+			if (j - coins[i - 1] < 0)
+				continue;
+			dp[i][j] = (dp[i][j] + dp[i][j - coins[i - 1]]) % mod;
 		}
 	}
-	for (int i = (int) s.size(); i > 0; --i)
-		cnt[i] += cnt[i + 1];
 	
-	for (int i = 1; i <= n; i++)
-		printf("%lld ", cnt[i]);
-	printf("\n");
+	printf("%d\n", dp[n][x]);
 	return 0;
 }

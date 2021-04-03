@@ -20,25 +20,23 @@ using namespace std;
 
 int main() {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); cout.precision(10);
-	int n; cin >> n;
-//	vector<vector<string>> cnt(n+1);
-//	for (int i = 0; i <= pow(2, n); i++) {
-//		int active = 0;
-//		string num = "";
-//		for (int j = 0; j <= log2(i); j++) {
-//			if (1 & (i >> j)) {
-//				active++;
-//				num += "1";
-//			} else {
-//				num += "0";
-//			}
-//		}
-//		reverse(num.begin(), num.end());
-////		view(to_string(active) + " " + num + " IDX: " + to_string(i));
-//		cnt[active].pb(num);
-//	}
-//	for (int i = 0; i <= n; i++) {
-//		view("ACT: " + to_string(i) + " CNT: " + to_string((int)cnt[i].size()));
-//	}
+	int n, x; cin >> n >> x;
+	ll mod = 1000000007ll;
+	vector<int> coins(n);
+	for (int i = 0; i < n; i++)
+		cin >> coins[i];
+	vector<ll> dp(x + 1, -1);
+	dp[0] = 1;
+	for (int i = 1; i <= x; i++) {
+		for (int coin : coins) {
+			if (i - coin >= 0 && dp[i - coin] != -1) {
+				if (dp[i] == -1)
+					dp[i] = 0;
+				dp[i] = (dp[i] + dp[i - coin]) % mod;
+			}
+		}
+	}
+	dp[x] = max(0ll, dp[x]);
+	cout << dp[x] << endl;
 	return 0;
 }
