@@ -1,5 +1,8 @@
 # Competitive Programming
 My Competitive Programming Archive.
+
+**Note:** 400+ CodeForces problems can be found at ```/Problems/CodeForces```
+
 # Problems
 CodeForces (leamycodes): https://codeforces.com <br/>
 CodeChef (leamycodes): https://www.codechef.com <br/>
